@@ -18,6 +18,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  min-height: 100vh;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -33,6 +37,10 @@ a:hover {
   color: #fff;
   padding: 0.2rem 1rem;
   border-radius: 5px;
+}
+
+.btn:disabled {
+  background: #ccc;
 }
 
 .input {
