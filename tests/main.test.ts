@@ -1,6 +1,6 @@
 describe('group', () => {
   it('should', () => {
-    // test
+    // running test
     expect(1).toBeTruthy()
   })
 })
