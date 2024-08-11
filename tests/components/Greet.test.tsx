@@ -7,7 +7,7 @@ describe('Greet', () => {
     render(<Greet name="John" />)
     const heading = screen.getByRole('heading')
     expect(heading).toBeInTheDocument()
-    expect(heading).toHaveTextContent(/johnE/i)
+    expect(heading).toHaveTextContent(/john/i)
   })
   it('should render login button when name is not provided', () => {
     render(<Greet />)
